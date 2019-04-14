@@ -5,6 +5,8 @@ custom
 packages
 node_modules
 kitchen-sink
+src/core/**/*.js
+src/core/modules/**/*.js
 src/core/framework7.js
 src/core/modules/demo-module.js
 src/core/components/swiper/swiper-class
