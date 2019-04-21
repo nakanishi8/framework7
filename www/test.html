@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--<script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>-->
+<script src="http://code.jquery.com/jquery-1.8.3.js" charset="UTF-8"></script>
+<!--<script src="../node_modules/parsleyjs/dist/parsley.min.js" charset="UTF-8"></script>-->
+<!--<script src="../node_modules/parsleyjs/src/parsley.js" charset="UTF-8"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.0/parsley.js" charset="UTF-8"></script>
+<script src="./yubinbango.js" charset="UTF-8"></script>
+
+</head>
+<body>
+  <form id="bbb" class="h-adr">
+  <span class="p-country-name" style="display:none;">Japan</span>
+  〒<input type="text" class="p-postal-code" size="3" maxlength="3">
+  <input name="postal-code" type="text" class="p-postal-code" size="4" maxlength="4" data-parsley-postal="my message"><br>
+  <input type="text" class="p-region" readonly /><br>
+  <input type="text" class="p-locality" readonly /><br>
+  <input type="text" class="p-street-address" /><br>
+  <input type="text" class="p-extended-address" />
+  </form>
+</body>
+</html>
+<script>
+$(function() {
+
+//document.getElementById("aaa").addEventListener('click', function() {
+//console.log("#############1");
+//});
+
+//var aaa = jQuery._data(document.getElementById("aaa"), "events");
+//console.log(aaa);
+
+});
+</script>
